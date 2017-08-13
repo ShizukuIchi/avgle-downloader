@@ -1,0 +1,5 @@
+*.m3u8
+*.ts
+.ipynb_checkpoints
+*.ipynb
+m3u8
