@@ -1,7 +1,8 @@
 m3u8Downloader
 ===
-## Usage
 > *Using python 2.7.13 with requests and bs4*
+## Usage
+
 ### m3u8Downloader.py  
 Open `cmd.exe` for `Windows` or `Terminal` for `Linux`.  
 Prepare your m3u8 file into `./video/m3u8` folder.
