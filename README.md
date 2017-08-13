@@ -6,8 +6,6 @@ m3u8Downloader
 Open `cmd.exe` for `Windows` or `Terminal` for `Linux`.  
 Prepare your m3u8 file into `./video/m3u8` folder.
 ```
-# .m3u8 -> .ts
-
 $ python m3u8Downloader.py m3u8_name video_name 
 ```
 Lots of ts files will be downloaded into `./video/tmp` folder named `video_name_X.ts` *(X is index)*.  
@@ -24,5 +22,6 @@ After merged, fragments will be deleted.
 Open `cmd.exe` for `Windows` or `Terminal` for `Linux`.  
 Download m3u8 file from an url.
 ```
-$ python getM3u8.py url m3u8_name
+$ python getM3u8.py url XXX.m3u8
 ```
+m3u8 file will be downloaded into `./video/m3u8` folder.
