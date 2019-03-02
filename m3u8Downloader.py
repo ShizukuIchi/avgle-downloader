@@ -19,7 +19,7 @@ tsNames = []
 for tsUrl in tslist:
     videoNameTmp = videoName[0:-3]+'_'+str(index)+videoName[-3:]
     if not os.path.isfile('./videos/tmp/'+videoNameTmp):
-        res = requests.get(tsUrl, stream=True)
+        res = requests.get(tsUrl, stream=True, headers={'Referer':'https://avgle.com'})
         if res.status_code == 200:
             with open('./videos/tmp/'+videoNameTmp, 'wb') as f:
                 for chunk in res:
